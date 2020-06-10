@@ -1,0 +1,15 @@
+def calculator(i1,i2):
+    if i3 =='add':
+        return int(i1)+int(i2)
+    if i3 =='sub':
+        return int(i1)-int(i2)
+    if i3 =='multi':
+        return int(i1)*int(i2)
+    if i3 =='div':
+        return int(i1)/int(i2)
+
+i1 = input('Enter the 1st number ')
+i2 = input('Enter the 2nd number ')
+i3 = input('Enter the operation(add,Sub,multi,div) ')
+
+print(calculator(i1,i2))
